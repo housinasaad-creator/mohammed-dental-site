@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>MOHAMMED · عيادة أسنان</title>
+<meta name="description" content="عيادة أسنان: كشف وتنظيف، تبييض، زراعة، تقويم، علاج عصب وأسنان أطفال. احجز موعدك بسهولة عبر واتساب.">
+<meta name="theme-color" content="#0b3a46">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MOHAMMED · عيادة أسنان">
+<meta property="og:description" content="كشف واضح، خطة علاج مفهومة، وتجربة هادئة بلا قلق.">
+<meta property="og:image" content="https://housinasaad-creator.github.io/mohammed-dental-site/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dentist","name":"MOHAMMED Dental","medicalSpecialty":"Dentistry","availableService":["Check-up and cleaning","Teeth whitening","Dental implants","Orthodontics","Root canal treatment","Pediatric dentistry"]}</script>
+</head>
+<body>
+<a class="skip" href="#main" id="skip"></a>
+
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-in">
+    <a class="logo" href="#top" aria-label="MOHAMMED">
+      <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#19c2bd"/><stop offset="1" stop-color="#0b7f85"/></linearGradient></defs><rect width="40" height="40" rx="12" fill="url(#lg)"/><path d="M20 12.2c-2.2-2.3-7.4-2.1-8.4 2.6-.7 3.3 1.2 5.4 1.8 8.7.5 2.8.8 6 2.6 6 1.5 0 1.6-3.7 2.2-5.6.4-1.2 1.2-1.2 1.6 0 .6 1.9.7 5.6 2.2 5.6 1.8 0 2.1-3.2 2.6-6 .6-3.3 2.5-5.4 1.8-8.7-1-4.7-6.2-4.9-8.4-2.6z" fill="#fff"/></svg>
+      <span class="logo-t"><b id="brandName"></b><small id="brandSub"></small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="main"></nav>
+    <div class="hdr-r">
+      <button class="lang" id="lang" type="button"></button>
+      <a class="btn btn-sm hdr-cta" href="#book" id="hdrCta"></a>
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true"><i class="blob b1"></i><i class="blob b2"></i><i class="grain"></i></div>
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <p class="kicker" id="hKicker"></p>
+        <h1><span id="h1a"></span> <em id="h1b"></em></h1>
+        <p class="hero-sub" id="hSub"></p>
+        <div class="hero-cta">
+          <a class="btn btn-lg" href="#book" id="hCta"></a>
+          <a class="btn btn-ghost btn-lg" href="#services" id="hCta2"></a>
+        </div>
+        <ul class="points" id="hPoints"></ul>
+      </div>
+      <div class="hero-art" id="heroArt">
+        <div class="art-ring" aria-hidden="true"></div>
+        <svg class="art-fallback" id="toothFallback" viewBox="0 0 200 240" aria-hidden="true"><defs><linearGradient id="tg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#ecf4f2"/></linearGradient></defs><path d="M100 46c-18-20-62-18-70 22-6 28 10 46 15 74 4 24 7 52 22 52 13 0 14-31 19-47 3-10 10-10 14 0 5 16 6 47 19 47 15 0 18-28 22-52 5-28 21-46 15-74-8-40-52-42-70-22z" fill="url(#tg)" stroke="#cfe3e0" stroke-width="2"/></svg>
+        <canvas id="toothCanvas" aria-label="3D tooth" role="img"></canvas>
+        <span class="chip chip-1" id="chip1"></span>
+        <span class="chip chip-2" id="chip2"></span>
+        <i class="spark s1" aria-hidden="true"></i><i class="spark s2" aria-hidden="true"></i><i class="spark s3" aria-hidden="true"></i>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="services"><div class="wrap">
+    <header class="sec-h rv"><p class="kicker" id="sKicker"></p><h2 id="sH2"></h2></header>
+    <div class="grid-services" id="sGrid"></div>
+  </div></section>
+
+  <section class="sec sec-alt" id="steps"><div class="wrap">
+    <header class="sec-h rv"><p class="kicker" id="stKicker"></p><h2 id="stH2"></h2></header>
+    <ol class="steps" id="stList"></ol>
+  </div></section>
+
+  <section class="sec" id="doctors"><div class="wrap">
+    <header class="sec-h rv"><p class="kicker" id="dKicker"></p><h2 id="dH2"></h2></header>
+    <div class="grid-docs" id="dGrid"></div>
+  </div></section>
+
+  <section class="sec sec-alt" id="faq"><div class="wrap narrow">
+    <header class="sec-h rv"><p class="kicker" id="fKicker"></p><h2 id="fH2"></h2></header>
+    <div class="faq" id="fList"></div>
+    <p class="fine" id="fNote"></p>
+  </div></section>
+
+  <section class="sec sec-book" id="book"><div class="wrap book-in">
+    <div class="book-copy rv">
+      <p class="kicker" id="bKicker"></p><h2 id="bH2"></h2><p class="lead" id="bLead"></p>
+      <div class="visit" id="visit"></div>
+    </div>
+    <form class="form rv" id="form" novalidate></form>
+  </div></section>
+</main>
+
+<footer class="ftr"><div class="wrap ftr-in">
+  <div class="ftr-brand"><b id="fBrand"></b><span id="fTag"></span></div>
+  <p class="ftr-c" id="fCredit"></p>
+</div></footer>
+
+<nav class="mbar" id="mbar" aria-label="quick actions"></nav>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<noscript><p style="padding:16px;text-align:center">JavaScript is required to view this page.</p></noscript>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
